@@ -4,14 +4,21 @@
 <meta charset="UTF-8">
 <title>smartmirror</title>
 	<link rel="stylesheet" href="./style.css">
+	
+	<link rel="stylesheet" href="https://pyscript.net/latest/pyscript.css"/>
+	<script defer src="https://pyscript.net/latest/pyscript.js"></script>
 </head>
 
 <body>
+	<py-env>
+	</py-env>
 	<h1>smart mirror</h1>
 	<div id="wrap1">
 		<div class="a">
 			<h1 class="font1">날씨정보</h1>
-			
+			<py-script>
+				print("HI")
+			</py-script>
 		</div>
 		<div class="b">
 			<h1 class="font1">뉴스</h1>
